@@ -1,0 +1,61 @@
+body{
+    background-color: #23263a;
+    margin: 0;
+}
+
+.navbar{
+    background-color: #1F2335;
+    width: 100vw;
+    height: 64px;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    
+}
+nav{
+    display: flex;
+}
+
+nav i {
+    color: red;
+    font-size: 30px;
+    margin-top: 16px;
+    
+    position: absolute;
+}
+
+.navli a{
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
+}
+
+.navul{
+    height: 60px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navli{
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+.navli:hover{
+    background-color: #23263a;
+}
+
+/*------------------------------------------------*/
+
+.ho{
+    height: 80vh;
+    width: 100vw;
+    background-color: #23263a;
+}
