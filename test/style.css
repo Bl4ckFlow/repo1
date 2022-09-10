@@ -1,16 +1,118 @@
-.main{
+@font-face {
+    font-family: "KanitBold";
+    src: url('assets/fonts/Kanit-Bold.ttf');
+}
+
+
+body{
+    background-color: #23263a;
+    margin: 0;
+}
+
+.navbar{
+    background-color: #1F2335;
+    width: 100vw;
+    height: 64px;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    
+}
+nav{
     display: flex;
 }
 
-.box-1{
-    background-color: brown;
-    width: 100px;
-    height: 100px;
+nav i {
+    color: red;
+    font-size: 30px;
+    margin-top: 16px;
+    
+    position: absolute;
 }
 
-.box-2{
-    background-color: aqua;
-    width: 100px;
-    height: 100px;
+.navli a{
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+    color: #ffff;
+    font-family: 'Brush Script MT', cursive;
+    font-size: 20px;
 }
 
+.navul{
+    height: 60px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navli{
+    border-radius: 10px;
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+
+.navli:hover{
+    background-color: #23263a;
+}
+
+/*------------------------------------------------*/
+
+.ho{
+    height: 80vh;
+    width: 100vw;
+    background-color: #23263a;
+}
+
+.socials{
+    width: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+i{
+    color: #ffff;
+    font-size: 18px;
+}
+
+.so-li{
+    list-style: none;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 3px solid red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: 0.3s;
+}
+
+.so-li:hover{
+    background-color: red;
+    transform: scale(1.2)
+}
+
+.socia a{
+text-decoration: none;
+padding-left: 32.5%;
+}
+
+.home-left h1{
+    color: white;
+    margin-left: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+}
+.home-left p{
+    color: gray;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}

@@ -1,61 +1,151 @@
+@font-face {
+    font-family: "KanitBold";
+    src: url('assets/fonts/Kanit-Bold.ttf');
+  
+}
+
 body{
+    margin: 0;
     background-color: #23263a;
-    margin: 0;
 }
 
-.navbar{
-    background-color: #1F2335;
+.navbar {
+    height: 60px;
     width: 100vw;
-    height: 64px;
-    margin: 0;
-    display: grid;
-    place-items: center;
-    
-}
-nav{
-    display: flex;
-}
+    background-color: #1b1d29;    
+    text-align: center;
 
-nav i {
-    color: red;
-    font-size: 30px;
-    margin-top: 16px;
-    
-    position: absolute;
-}
 
-.navli a{
+} 
+a { 
     color: yellow;
     text-align: center;
     text-decoration: none;
     color: #ffff;
     font-family: 'Brush Script MT', cursive;
-    font-size: 20px;
 }
 
-.navul{
+ul {
     height: 60px;
     margin: 0;
     display: flex;
     align-items: center;
-    
 }
 
-.navli{
+li {
+    
     border-radius: 10px;
     margin: 0;
     padding: 10px;
     list-style: none;
 }
-
-.navli:hover{
+li:hover{
     background-color: #23263a;
 }
 
-/*------------------------------------------------*/
 
-.ho{
-    height: 80vh;
+
+p {
+    margin: 0;
+}
+
+.top {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #1b1d29;    
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    display: grid;
+    place-items: center;
+ }
+
+ /* ----------------------------------------------------------------------------*/
+
+ .Main{
+    margin: 0;
+ }
+
+ /*-------------------------------------------*/
+.About{
     width: 100vw;
-    background-color: #23263a;
+    margin: 0;
+    text-align: center;
 }
+
+ .About h2{
+    text-align: center;
+    margin: 0;
+    font-family: "KanitBold";
+    font-size: 50px;
+    color: white;
+ }
+
+ .About p{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: "KanitBold";
+    color: white;
+ }
+ 
+ .About a{
+    text-align: center;
+    margin: 0;
+    word-spacing: 50px;
+
+ }
+
+ /* ------------------------------------------------------*/
+
+ .myvideo{
+    width: 100vw;
+    display: grid;
+    place-items: center;
+ }
+
+ .Work h2{
+    text-align: center;
+    margin: 0;
+    font-family: "KanitBold";
+    font-size: 50px;
+    color: white;
+ }
+
+ .Work p{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: "KanitBold";
+    color: white;
+ }
+
+ /*------------------------------------*/
+
+ .Resume h2{
+    text-align: center;
+    margin: 0;
+    font-family: "KanitBold";
+    font-size: 50px;
+    color: white;
+ }
+
+ .Resume p{
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    font-family: "KanitBold";
+    color: white;
+ }
+
+ /*------------------------------------*/
+ .Contact h2{
+    text-align: center;
+    margin: 0;
+    font-family: "KanitBold";
+    font-size: 50px;
+    color: white;
+ }
+
+ 
